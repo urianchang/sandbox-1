@@ -3,7 +3,7 @@
 //: 3 basic types in TypeScript
 var isDone : boolean = false;
 var lines : number = 42;
-var name : string = "Anders";
+var name2 : string = "Anders";
 
 //: Use "Any" if it's impossible to know
 var notSure : any = 4;
@@ -47,7 +47,7 @@ var p: Person = { name: "Bobby", move: () => {} };
 //: Objects that have the optional property:
 var validPerson: Person = { name: "Bobby", age: 42, move: () => {} };
 //: This is not a Person because age isn't a number
-var invalidPerson: Person = { name: "Bobby", age: true };
+// var invalidPerson: Person = { name: "Bobby", age: true };
 
 //: Interfaces can also describe a function type
 interface SearchFunc {
@@ -129,8 +129,8 @@ var tuple = pairToTuple({ item1: "hello", item2: "world" });
 //: Including references to a definition file: <reference path="jquery.d.ts" />
 
 //: Template Strings
-var name = 'Tyrone';
-var greeting = `Hi ${name}, how are you?`
+var name1 = 'Tyrone';
+var greeting = `Hi ${name1}, how are you?`
     //: Multiline strings with template strings
 var multiline = `This is an example
 of a multiline string`;
