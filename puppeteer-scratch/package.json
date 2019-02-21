@@ -4,11 +4,13 @@
   "description": "Scratchpad to use the puppeteer framework",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "@urianchang",
   "license": "ISC",
   "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.0",
     "puppeteer": "^1.12.2"
   }
 }
