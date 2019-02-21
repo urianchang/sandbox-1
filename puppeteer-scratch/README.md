@@ -4,8 +4,19 @@
 * [Puppeteer](https://pptr.dev/) for web browsing
 * [Chai](https://www.chaijs.com/) for assertions
 
-To run tests
+**Helpful commands**
 
+To run all tests
 ```
-npm test
+yarn test
+```
+
+Run test(s) based on regex of test name
+```
+yarn test --grep "Array"
+```
+
+Output to xunit and write to xml file
+```
+yarn test --reporter=xunit --reporter-options output=results.xml
 ```
