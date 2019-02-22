@@ -1,6 +1,6 @@
 var assert = require('assert');
 
-describe.skip('Array', function() {
+describe.skip('Is Mocha alive? Check with an Array', function() {
   before(function() {
     console.log("BEFORE ALL - 1");
   });
