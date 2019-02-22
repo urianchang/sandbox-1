@@ -3,6 +3,7 @@
 * [Mocha](https://mochajs.org/) to set up test suites
 * [Puppeteer](https://pptr.dev/) for web browsing
 * [Chai](https://www.chaijs.com/) for assertions
+* [pixelmatch](https://github.com/mapbox/pixelmatch) for comparing screenshots
 
 **Helpful commands**
 
