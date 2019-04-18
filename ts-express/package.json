@@ -5,6 +5,7 @@
   "main": "build/start.js",
   "scripts": {
     "test": "none",
+    "tsc": "tsc",
     "start:express": "nodemon --config \"./util/nodemon.json\"/",
     "build": "rm -rf ./build/ && tsc",
     "start": "node build/start.js"
@@ -16,5 +17,10 @@
     "ts-node": "^8.1.0",
     "tslint": "^5.16.0",
     "typescript": "^3.4.3"
+  },
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
   }
 }
