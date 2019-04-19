@@ -6,7 +6,7 @@
     "outDir": "./build",
     "removeComments": true,
     "experimentalDecorators": true,
-    "target": "es5",
+    "target": "es6",
     "emitDecoratorMetadata": true,
     "moduleResolution": "node",
     "importHelpers": true,
@@ -25,7 +25,8 @@
     "./src/**/*.ts"
   ],
   "exclude": [
-    "./src/public/"
+    "./src/public/",
+    "node_modules"
   ]
 }
 
