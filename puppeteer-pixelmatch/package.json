@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "pixelmatch": "^4.0.2",
-    "puppeteer": "^1.11.0"
+    "puppeteer": "^1.20.0"
   }
 }
